@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 import { io } from 'socket.io-client'
 import { useState } from 'react'
 
-const socket = io("http://localhost:5000");
+const socket = io("https://chatapp-with-socket-io.onrender.com");
 
 const inter = Inter({ subsets: ['latin'] })
 
